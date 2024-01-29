@@ -1,0 +1,51 @@
+.box {
+    background-color: white;
+    color: #fb6f92;
+    font-size: 20px;
+    min-width: max-content;
+    max-width: 80vw;
+    margin-left: 10vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    height: 30vh;
+    display: flex;
+    font-weight: bold;
+}
+
+.row {
+    margin-left: 8vw;
+}
+
+.button {
+    font-size: 15px;
+    color: #caf0f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to bottom right, #fb6f92, #ff8fab, #ffb3c6);
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover {
+    color: #fb6f92;
+    background: white;
+}
+
+.row4 {
+    margin-left: auto;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+.modalText {
+    color: #fb6f92;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+}

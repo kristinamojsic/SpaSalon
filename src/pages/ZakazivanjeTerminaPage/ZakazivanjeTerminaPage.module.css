@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Courgette&family=Nunito+Sans:wght@300&family=Nunito:wght@200&display=swap');
+
+.button {
+    font-size: 15px;
+    color: #caf0f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to bottom right, #fb6f92, #ff8fab, #ffb3c6);
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.datePicker {
+    height: 52px;
+    background-color: rgba(255.0, 255.0, 255.0, 0.0);
+    margin-left: 1.5vw;
+    border: 0.02px solid rgba(128, 128, 128, 0.6);
+    width: 220px;
+    border-radius: 4px;
+}
+
+.searchBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: max-content;
+    max-height: max-content;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.calendar {
+    color: #fb6f92;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.box {
+    border-radius: 20px;
+    min-height: 70vh;
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.label {
+    font-size: 1.2em;
+    color: #fb6f92;
+    font-weight: bolder;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.item {
+    display: block;
+    margin-right: 10px;
+}
+
+.button {
+    font-size: 15px;
+    color: #caf0f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to bottom right, #fb6f92, #ff8fab, #ffb3c6);
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top:7vh;
+    margin-left: 10px;
+}
+.osoba{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    max-height: max-content;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    align-items: center;
+    margin-top: 5vh;
+}
+.termini{
+    display:flex;
+    gap:2vw;
+    float:left;
+   flex-wrap: wrap;
+   color:#fb6f92;
+   font-size: 1.2em;
+   margin-left:30%;
+   font-weight: bold;
+}
+.termini p:hover{
+    font-weight: bolder;
+    color:black;
+    cursor: pointer;
+
+}
+.heading{
+    font-size: 1.5em;
+    color:#fb6f92;
+    font-weight: bolder;
+    margin-left: 20px;
+    width:30%;
+}
+.error{
+    font-size: 1.5em;
+    color: #fb6f92;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+.modalText{
+    color:#fb6f92;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+}

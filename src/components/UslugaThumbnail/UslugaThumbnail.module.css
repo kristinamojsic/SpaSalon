@@ -1,0 +1,53 @@
+.thumbnail{
+    background-color: white;
+}.thumbnail {
+    width: 19vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10vh;
+    text-align: center;
+    box-shadow: 0px 2px 21px 1px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 0px 2px 21px 1px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 2px 21px 1px rgba(0, 0, 0, 0.66);
+    /* box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);*/
+    margin-left: 50px;
+    font-size: 13px;
+
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 14px 6px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.image {
+    width: 19vw;
+    height: 33vh;
+    border-radius: 20px 20px 0 0;
+}
+
+.imageDiv {
+    width: 19vw;
+    height: 33vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading{
+    margin-left:0;
+    margin-top:10px;
+    font-size:1.8em;
+}
+.price{
+    margin-left:0;
+    margin-top: 15px;
+    font-size:1.5em;
+    color:#fb6f92;
+}

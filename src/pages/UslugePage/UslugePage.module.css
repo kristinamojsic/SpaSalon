@@ -1,0 +1,19 @@
+.page{
+    width: 100vw;
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.uslugeGrid{
+    margin-left: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 0.5vw;
+        margin-right:10vw;
+        padding: 0;
+        margin-bottom:10vh;
+        
+}
+.navbar{
+    width: 100vw;
+}

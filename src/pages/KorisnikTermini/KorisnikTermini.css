@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 21px 1px rgba(0, 0, 0, 0.66);
+    margin-left: 50px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+.appointment {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.detail {
+    font-size: 1.2em;
+    color: #fb6f92;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.edit-button {
+    padding: 8px 15px;
+    background-color: #fb6f92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #d75279;
+}

@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 7vh;
+}
+
+.heading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 20px;
+    color: #caf0f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to bottom right, #fb6f92, #ff8fab, #ffb3c6);
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2.5vh;
+    margin-left: 15px;
+}
+.page{
+    height: 100vh;
+    background-image: url('../../images/background2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.button:hover {
+    background: white;
+    color: #fb6f92;
+}

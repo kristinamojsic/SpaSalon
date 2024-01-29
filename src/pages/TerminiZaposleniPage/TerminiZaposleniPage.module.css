@@ -1,0 +1,68 @@
+.zakazaniBox{
+    background-color: white;
+    width:max-content;
+    height: fit-content;
+    display:flex;
+    gap:10vw;
+    margin: auto;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+    padding-left:30px;
+    padding-right: 30px;
+    color:#fb6f92;
+    font-weight: bolder;
+    margin-top: 5vh;
+}
+.error{
+    font-size: 1.5rem;
+    color: #fb6f92;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10%;
+}
+.slobodniBox{
+    background-color: white;
+        width: max-content;
+        height: fit-content;
+        display: flex;
+        gap: 10vw;
+        margin: auto;
+        font-size: 1.5rem;
+        border-radius: 20px;
+        box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.75);
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #fb6f92;
+        font-weight: bolder;
+        margin-top: 5vh;
+}
+.button {
+    font-size: 15px;
+    color: #caf0f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to bottom right, #fb6f92, #ff8fab, #ffb3c6);
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top:15px;
+    margin-left: 10px;
+    align-self: center
+}
+.modalText {
+    color: #fb6f92;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+.tabBox{
+    display: flex;
+    justify-content: center;
+}

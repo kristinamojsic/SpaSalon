@@ -1,0 +1,11 @@
+.tabBox{
+    display:flex;
+    justify-content: center;
+    
+}
+.tabs .Mui-selected{
+font-size: 20px;
+color:#fb6f92;
+}
+/* TabStyles.module.css */
+

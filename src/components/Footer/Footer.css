@@ -1,0 +1,19 @@
+.Footer {
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Footer p {
+    font-size: 1.25vmin;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+    .Footer p {
+        font-size: 2vmin;
+        width: 100vw;
+        text-align: center;
+    }
+}
